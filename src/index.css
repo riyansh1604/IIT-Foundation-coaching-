@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #FBF9F5;
+  }
+  
+  .font-serif-heading {
+    font-family: 'Fraunces', 'Instrument Serif', Georgia, serif;
+  }
+
+  .font-brand {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Crisp minimal styling utilities */
+.editorial-border {
+  border: 2px solid #18181B;
+}
+
+.editorial-shadow {
+  box-shadow: 4px 4px 0px 0px #18181B;
+}
+
+.editorial-shadow-sm {
+  box-shadow: 2px 2px 0px 0px #18181B;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF9F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4D0C8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A8A29E;
+}
